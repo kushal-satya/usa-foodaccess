@@ -1,8 +1,8 @@
 
-## Document: Analyzing SNAP and FBST Pantry Location Data with Public Transit Accessibility
+## Analyzing SNAP and FBST Pantry Location Data with Public Transit Accessibility
 
 ### Introduction
-This document details the comprehensive process of analyzing the accessibility of SNAP and FBST pantry locations concerning public transit in six counties: Chemung, Broome, Tioga, Steuben, Tompkins, and Schuyler. This analysis leverages various data sources, processing steps, and mapping techniques to provide insights into how public transit can impact access to essential services.
+A quick documentation of analyzing the accessibility of SNAP and FBST pantry locations concerning public transit in six counties: Chemung, Broome, Tioga, Steuben, Tompkins, and Schuyler. I use different data sources, processing steps, and mapping to provide some insight into how public transit can impact access to essential services like food.
 
 ### Data Sources
 1. **SNAP Historical Location Data**
@@ -73,5 +73,4 @@ The `folium` library is used to create interactive maps visualizing the SNAP and
 - **folium**: Creating interactive maps.
 - **geopy**: Geodesic distance calculations.
 
-### Conclusion
-This document outlines the detailed process of analyzing the accessibility of SNAP and FBST pantry locations concerning public transit. By integrating various data sources and using advanced spatial analysis techniques, we can gain valuable insights into how public transit impacts access to essential services in the studied counties. The resulting interactive maps provide a powerful tool for visualizing these relationships and supporting data-driven decision-making.
+
