@@ -64,7 +64,7 @@
 </head>
 <body>
     <div class="container">
-        <h1>Map Visualization Sample: Food Access</h1>
+        <h1>Code Sample: Food Access</h1>
         
         <div class="tabs">
             <div class="tab active" onclick="switchTab('map')">Interactive Map</div>
@@ -74,6 +74,16 @@
 
         <div id="map-tab" class="tab-content active section">
             <h2>Interactive Map</h2>
+            <p>This interactive map visualizes the locations of SNAP retailers and Food Bank of the Southern Tier (FBST) food pantries across six counties in New York State: Chemung, Broome, Tioga, Steuben, Tompkins, and Schuyler. SNAP retailers are stores authorized to accept Supplemental Nutrition Assistance Program benefits (formerly food stamps), while FBST food pantries are local organizations that provide free food assistance to those in need. The map also shows public transit accessibility to these locations.</p>
+
+            <p>Use the map controls to:</p>
+            <ul>
+                <li>Toggle between different location types (SNAP retailers and food pantries)</li>
+                <li>View public transit coverage areas (5, 15, and 30 minute walking distances from bus stops)</li>
+                <li>Zoom and pan to explore specific areas</li>
+            </ul>
+
+            <p>For a detailed explanation of the data sources and methodology used to create this visualization, please see the Documentation tab.</p>
             <iframe src="snap_foodpantry_map.html" width="100%" height="600px" frameborder="0"></iframe>
         </div>
 
